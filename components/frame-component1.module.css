@@ -1,0 +1,160 @@
+.roadmap {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 64px;
+  font-weight: 400;
+  font-family: inherit;
+  background: linear-gradient(90deg, #fa75f8, #9e6ee6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  z-index: 4;
+}
+.roadmapContent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+}
+.phase1 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 64px;
+  font-weight: 500;
+  font-family: inherit;
+  background: linear-gradient(90deg, #facc69, #fa75f8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.heading2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0 var(--padding-xl) 0 0;
+}
+.flowHorizenWaves,
+.horizenDaiDai,
+.quantHarmonyAmp {
+  margin-bottom: 0;
+}
+.horizenDaiDaiHarmonyDogeco {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-8xl);
+}
+.horizenDaiDaiContainer {
+  margin: 0;
+  flex: 1;
+  position: relative;
+  line-height: 32px;
+  display: inline-block;
+  max-width: 100%;
+}
+.phaseDescription {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  max-width: 100%;
+  font-size: var(--font-size-xl);
+}
+.roadmapPhase {
+  width: 528px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xl) 0;
+  box-sizing: border-box;
+  gap: var(--gap-base);
+  min-width: 528px;
+  max-width: 100%;
+}
+.roadmapPlaceholderIcon {
+  height: 503px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+  min-width: 414px;
+}
+.divframerFddg71,
+.roadmapContentParent {
+  align-self: stretch;
+  display: flex;
+  box-sizing: border-box;
+  gap: var(--gap-81xl);
+  max-width: 100%;
+}
+.divframerFddg71 {
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0 0 0 var(--padding-157xl);
+  z-index: 4;
+  text-align: left;
+}
+.roadmapContentParent {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-32xl-5);
+  flex-shrink: 0;
+  text-align: center;
+  font-size: var(--font-size-29xl);
+  color: var(--color-gray-800);
+  font-family: var(--font-outfit);
+}
+@media screen and (max-width: 1200px) {
+  .roadmapPhase {
+    flex: 1;
+  }
+  .divframerFddg71 {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 825px) {
+  .phase1,
+  .roadmap {
+    font-size: var(--font-size-19xl);
+    line-height: 51px;
+  }
+  .roadmapPhase,
+  .roadmapPlaceholderIcon {
+    min-width: 100%;
+  }
+  .divframerFddg71 {
+    padding-left: var(--padding-69xl);
+    box-sizing: border-box;
+  }
+  .divframerFddg71,
+  .roadmapContentParent {
+    gap: var(--gap-31xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .phase1,
+  .roadmap {
+    font-size: var(--font-size-10xl);
+    line-height: 38px;
+  }
+  .horizenDaiDaiContainer {
+    font-size: var(--font-size-base);
+    line-height: 26px;
+  }
+  .divframerFddg71 {
+    padding-left: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .divframerFddg71,
+  .roadmapContentParent {
+    gap: var(--gap-6xl);
+  }
+}
